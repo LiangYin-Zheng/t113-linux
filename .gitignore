@@ -1,0 +1,56 @@
+# =========================
+# Linux Kernel Module Build
+# =========================
+
+# Kernel module
+# *.ko
+
+# Object files
+*.o
+*.mod
+*.mod.c
+*.mod.o
+
+# Module build information
+*.mod.cmd
+*.o.cmd
+*.ko.cmd
+*.symvers
+modules.order
+Module.symvers
+
+# Temporary files
+*.tmp
+*.cmd
+
+# Executable
+a.out
+
+# =========================
+# VSCode
+# =========================
+
+#.vscode/
+*.code-workspace
+
+# =========================
+# Build output
+# =========================
+
+build/
+out/
+output/
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Backup files
+# =========================
+
+*~
+*.swp
+*.swo
