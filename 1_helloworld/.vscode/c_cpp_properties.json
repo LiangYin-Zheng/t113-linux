@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/t113/t113-v1.1/kernel/linux-5.4/include",
+                "/home/t113/t113-v1.1/kernel/linux-5.4/include/uapi",
+                "/home/t113/t113-v1.1/kernel/linux-5.4/include/linux",
+                "/home/t113/t113-v1.1/kernel/linux-5.4/include/asm-generic",
+                "/home/t113/t113-v1.1/kernel/linux-5.4/arch/arm/include",
+                "/home/t113/t113-v1.1/kernel/linux-5.4/arch/arm/include/uapi"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
